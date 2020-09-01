@@ -134,13 +134,15 @@
           <pre class="prettyprint">
             if(<i>test expression1</i>){ 
                     statements1; 
-                    if(<i>test expression2</i>){ 
+                    if(<i>test expression2</i>)
+                   { 
                             statements2; 
                     } 
             } 
             else{ 
                     statements3; 
-                    if(<i>test expression3</i>){ 
+                    if(<i>test expression3</i>)
+                    { 
                             statements4; 
                     } 
                     else{ 
@@ -166,8 +168,10 @@
                statements3; 
             else if (<i>test expression4</i>) 
                statements4; 
-            else 
+            else if(<i>test expression5</i>)
                statements5; 
+           else
+ 	    statement6;
           </pre>
         </p>
         <p>
