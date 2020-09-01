@@ -182,13 +182,17 @@
           A Switch-Case is a construct which is used to allow jumping to one of the multiple blocks. This decision is taken based on the value of a variable or an expression. Its purpose is to allow the value of a variable or an expression to control the flow of program execution via a multiway branch. A default case may also be specified to be executed when the given state has not been addressed by any of the other cases. 
           <br>
           <pre class="prettyprint">
-            switch ( <i>test expression</i> ) { 
+            switch ( <i>test expression</i> ) 
+            { 
               case 1 :  
                 statement1;  
               break;   
               case 2 :  
                 statement2;  
               break;  
+             case 3 :
+                 statement3;
+              break;
               case n :  //an example general case
                 statementn;  
               break;   
